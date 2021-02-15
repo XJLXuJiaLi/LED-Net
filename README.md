@@ -14,11 +14,11 @@ git clone https://github.com/XJLXuJiaLi/LED-Net.git
 ### Dataset
 __Shape Classification__
 
-Download and unzip [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip) (415M). Replace `$data_root$` in `cfgs/config_*_cls.yaml` with the dataset parent path.
+Download and unzip [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip) (415M). Replace `$data_root$` in `cfgs/config_cls.yaml` with the dataset parent path.
 
 __ShapeNet Part Segmentation__
 
-Download and unzip [ShapeNet Part](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip) (674M). Replace `$data_root$` in `cfgs/config_*_partseg.yaml` with the dataset path.
+Download and unzip [ShapeNet Part](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip) (674M). Replace `$data_root$` in `cfgs/config_seg.yaml` with the dataset path.
 
 ## Training
 ### Shape Classification
