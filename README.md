@@ -8,7 +8,7 @@
 - CUDA 10.1 + cuDNN 7.6
 ### Build
 git clone https://github.com/XJLXuJiaLi/LED-Net.git 
-    cd LED-Net
+- cd LED-Net
 - mkdir build && cd build
 - cmake .. && make
 ### Dataset
