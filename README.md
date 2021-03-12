@@ -1,4 +1,4 @@
-# LED-Net
+# IED-Net
 ## Preparation
 - Ubuntu 18.04
 - Python 3.6 
